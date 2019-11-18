@@ -1,41 +1,14 @@
- 
-                        
-
-
-                                
-    /* TEAM */
+                          
+   /* TEAM */
 
                                 
     Your title: Mikael Andersson.
 
                                 
-    Site: email@email.com
-
-                                
-    Twitter: your Twitter username.
+    Site: Klientbaserad webbprogrammering
 
                                 
     Location: Sweden.
-
-                             
-
-                 
-                        [...]
-						
-
-
-    							
-    /* THANKS */
-
-    							
-    Name: name or url
-
-    						
-
-                 
-                        [...]
-                        
-
 
                                 
     /* SITE */
@@ -44,10 +17,7 @@
     Last update: 2019/11/18 
 
                                 
-    Standards: HTML5, CSS3. javascript.
-
-                                
-    Components: Modernizr, jQuery, etc.
+    Standards: HTML5, CSS3. javascript, Sass.
 
                                 
     Software: Jekyll

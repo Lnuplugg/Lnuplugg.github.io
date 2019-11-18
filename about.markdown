@@ -4,48 +4,10 @@ title: About Me
 permalink: /about_me/
 ---
 
-Hej! Mitt namn är {{ site.title }} & bor i Kalmar.
-Jag har alltid haft ett stort teknikintresse och valde därför att börja plugga på Linneuniversitetet i Kalmar.
+Hello, my name is {{ site.title }} and i currently live in Kalmar.
+For as long as i can remember i've been interested in technology and that's why i started study technology at Linneuniversitetet i Kalmar.
 
 
-Jag går första året på den 3-åriga utbildningen Utveckling & drift av mjukvarusystem(UDM).
-Utbildningen omfattar inte bara utveckling och programmering utan innehåller även delar där vi kommer lära oss att drifta & underhålla mjukvarusystem.
+Im in my first year of the program "Utveckling & drift av mjukvarusystem(UDM)".
+The education does not only include programming but also we will learn to operate and maintain software/systems.
 
-<meta content="{{ site.title }}" property="og:site_name">
-{% if page.title %}
-  <meta content="{{ page.title }}" property="og:title">
-{% else %}
-  <meta content="{{ site.title }}" property="og:title">
-{% endif %}
-{% if page.title %}
-  <meta content="article" property="og:type">
-{% else %}
-  <meta content="website" property="og:type">
-{% endif %}
-{% if page.description %}
-  <meta content="{{ page.description }}" property="og:description">
-{% else %}
-  <meta content="{{ site.description }}" property="og:description">
-{% endif %}
-{% if page.url %}
-  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-{% endif %}
-{% if page.date %}
-  <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-  <meta content="{{ site.url }}/about/" property="article:author">
-{% endif %}
-{% if page.image %}
-  <meta content="/img/srcset/{{ page.image }}" property="og:image">
-{% else %}
-  <meta content="/img/logo-high-resolution.png" property="og:image">
-{% endif %}
-{% if page.categories %}
-  {% for category in page.categories limit:1 %}
-  <meta content="{{ category }}" property="article:section">
-  {% endfor %}
-{% endif %}
-{% if page.tags %}
-  {% for tag in page.tags %}
-  <meta content="{{ tag }}" property="article:tag">
-  {% endfor %}
-{% endif %}
