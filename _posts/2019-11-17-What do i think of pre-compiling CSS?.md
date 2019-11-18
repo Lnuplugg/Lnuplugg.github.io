@@ -5,8 +5,8 @@ date:   2019-11-17 18:58:58 +0100
 categories: Blog
 author: Mikael
 permalink: /blog/what-do-i-think-of-pre-compiling-css
+comments: true
 ---
-
 
 ## Compare to regular CSS
 The use of variables makes it more flexible because one wouldn't have to repeat code as much.
