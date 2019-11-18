@@ -181,8 +181,8 @@ pre {
   margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
-  background-color:#ffffff; max-width:800px;  margin:10px auto;
-  outline:solid #FFF; padding:10px; border-style:groove; border-radius:10px; border-width:1px;
+  background-color:#f1f1f1; max-width:800px;
+  outline:solid #FFF; padding:20px; border-style:groove; border-radius:10px; border-width:1px;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
