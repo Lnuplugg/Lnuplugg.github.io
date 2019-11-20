@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "What is robots.txt and how have you configure it for your site?"
-date:   2019-11-17 20:58:58 +0100
+title: "What is robots.txt and how have you configure it for your site?"
+date: 2019-11-17 20:58:58 +0100
 categories: Blog
 author: Mikael
 permalink: /blog/what-is-robots-txt-and-how-have-you-configured-it-for-your-site
